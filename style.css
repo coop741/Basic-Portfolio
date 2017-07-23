@@ -20,7 +20,7 @@ body {
 	padding-right: 0px;
 	padding-bottom: 20px;
 	padding-left: 0px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 #links1 {
@@ -109,7 +109,7 @@ a:visited {
 #about {
 	text-align: left;
 	margin-top: 0px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 #bio {
@@ -127,7 +127,7 @@ a:visited {
 	font-size: 22px;
 	margin-top: 8px;
 	margin-bottom: 30px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 #connect {
@@ -142,6 +142,35 @@ a:visited {
 
 #links2 {
 	padding: 9px;
+}
+
+#portfolio {
+	background-color: white;
+	padding: 20px;
+	width: 400px;
+	margin-left: 140px;
+	display: inline-block;
+	color: #777777;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+.portfolio-div {
+	display: inline-block;
+	position: relative;
+	width: 155px;
+}
+
+.portfolio-text {
+	background-color: #4aaaa5;
+	position: absolute;
+	width: inherit;
+	margin-top: 72px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
 }
 
 .footer {
